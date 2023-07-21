@@ -58,3 +58,18 @@ while (contador <= 20){
     contador += 2
 }
 }
+
+
+
+export function exercicio10() {
+    console.log("exercicio 10 - FOR")
+let numero; 
+    numero = parseFloat(prompt("Digite um número: "))
+ //}
+
+
+ do {
+     numero = parseFloat(prompt("Digite um número: "))
+ }while (numero != 0)
+}
+
